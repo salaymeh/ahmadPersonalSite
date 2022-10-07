@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'slkscr';
+  src: url('../fonts/slkscr.ttf');
+}
+@font-face {
+  font-family: 'slkscre';
+  src: url('../fonts/slkscre.ttf');
+}
+a{
+  color: #d2cdc6;
+  font-family: 'slkscr';
+  display: inline-block;
+  padding: 1em;
+  font-size: 1.3em;
+
+}
+
+a:hover{
+  color: bisque;
+  font-family: 'slkscre';
+}
+
+p:hover{
+  font-style: italic;
+}
+
+.blogs{
+  padding-top: 3em;
+}
+
+.list{
+  margin-left: 200px;
+}
+.blogs{
+  padding-top: 3em;
+  padding-left: 2em;
+  display: flex;
+  margin: auto;
+}
+
+.blogs h1,h2,p1{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Uchen', serif;
+
+}
+.blogs h1{
+  font-weight: bold;
+  font-size: 2.5em;
+}
+.blogs h2{
+  font-style: italic;
+  font-weight: 500;
+}
+.noHover{
+  pointer-events: none;
+}
+
+
+#github{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  margin-left: .5em;
+  color: gray;
+}
+#github:hover{
+  color: rgb(231, 195, 150);
+}
+hr {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#project-title{
+  font-family: 'Roboto', sans-serif;
+  font-size: x-large;
+  font-style: normal;
+  margin-left: 1em;
+  font-weight: 500;
+  text-decoration: underline;
+}
+#projects-desc{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 1.5em;
+}
+#projects-tech{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 1.5em;
+  font-style: italic;
+  
+}
+
+#book-title{
+  font-style: normal;
+  font-size: large;
+  margin-left: 1em;
+}
+#book-author{
+  font-style: italic;
+  margin-left: 2em;
+  font-size: small;
+}
+
+
