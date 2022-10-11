@@ -13,7 +13,7 @@ return (
         <div className={styles.content}>
              <div className={styles.bannerNav} >
                 <Link href="/"><div className={styles.hoverEffect}>Home</div></Link>
-                <Link href={'/resume'}><div className={styles.hoverEffect}>Resume</div></Link>
+                <Link href={'https://drive.google.com/uc?export=download&id=1VM95abr1DPF8VpgxnZKhxprn4WP0hqcw'}><div className={styles.hoverEffect}>Resume</div></Link>
                 <Link href={'/projects'}><div className={styles.hoverEffect}>Projects</div></Link>
                 <Link href={'/hobbies'}><div className={styles.hoverEffect}>Hobbies</div></Link>
                 <Link href={'/blog'}><div className={styles.hoverEffect}>Blog</div></Link>
